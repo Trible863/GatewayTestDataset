@@ -4,7 +4,7 @@
 Email: fengchunbo19@mails.ucas.ac.cn
 
 ----------------
-### 数据来源
+### 原始数据来源
 采用英特尔英特尔伯克利研究室（IBRL）传感器[数据集](http://db.csail.mit.edu/labdata/labdata.html)作为原始数据集，该数据集为IBRL在2004年使用54个传感器采集到的约230万条的感知数据。本文将原始数据按照设备编号分组并按时间顺序排序，采用移动平均数的方法归一化数据采样周期，并剔除数据量小于3万条的设备整合为[标准数据集](https://github.com/Trible863/GatewayTestDataset/blob/main/standardSensorData.rar)。
 
 ### 总体说明
